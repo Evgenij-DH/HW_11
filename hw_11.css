@@ -99,7 +99,7 @@ body {
     margin-right: 313px;
 }
 .header_menu {
-    width: 791px;
+    width: 891px;
 }
 .header_menu_item {
     display: flex;
@@ -110,11 +110,11 @@ body {
 .header_menu_item--link {
     text-decoration: none;
     color: #868686;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato-Light', sans-serif;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 600;
     text-transform: uppercase;
-    padding: 11px 15px 11px 15px;   
+    padding: 11px 17px 11px 17px;   
 }
 .header_menu_item--link:hover {
     color: #ffffff;
@@ -143,29 +143,77 @@ body {
     font-size: 16px;
     line-height: 24px;
 }
-.main_fon1_form {
+.main_fon1_forms {
+    margin-top: 33px;
+    margin-left: 41px;
+}
+.main_fon1_form__name {
     background-color: #ffffff;
     border-radius: 3px;
     width: 281px;
     padding: 18px 0px 18px 41px;
     color: blue;
-    margin-left: 41px;
-    margin-top: 33px;
-    font-family: 'FontAwesome', 'Open Sans', sans-serif;
-}
-.main_fon1_form::-webkit-input-placeholder {
-    color: #a9a9a9;
-    font-size: 13px;
-}
-/* .main_fon1_form::before {
+    margin-right: 10px;
     background-image: url('images/_figura.png');
+    background-position-x: 15px;
+    background-position-y: center;
     background-repeat: no-repeat;
-    font-family: 'FontAwesome', sans-serif;
-    width: 13px;
-    height: 15px;
-    display: inline-block;
-    vertical-align: middle;
-}  */
+}
+.main_fon1_form__name::-webkit-input-placeholder {
+    color: #a9a9a9;
+    font-size: 13px; 
+}
+.main_fon1_form__name:required {
+    border: 1px solid red;
+}
+.main_fon1_form__email {
+    background-color: #ffffff;
+    border-radius: 3px;
+    width: 281px;
+    padding: 18px 0px 18px 41px;
+    color: blue;
+    margin-right: 10px;
+    background-image: url('images/_letter.png');
+    background-position-x: 15px;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+.main_fon1_form__email::-webkit-input-placeholder {
+    color: #a9a9a9;
+    font-size: 13px; 
+}
+.main_fon1_form__email:required {
+    border: 1px solid red;
+}
+.main_fon1_form__tel {
+    background-color: #ffffff;
+    border-radius: 3px;
+    width: 281px;
+    padding: 18px 0px 18px 41px;
+    color: blue;
+    margin-right: 10px;
+    background-image: url('images/_tel.png');
+    background-position-x: 15px;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+.main_fon1_form__tel::-webkit-input-placeholder {
+    color: #a9a9a9;
+    font-size: 13px; 
+}
+.main_fon1_form__tel:required {
+    border: 1px solid red;
+}
+.main_fon1_form__submit {
+    background-color: #ffbb42;
+    border-radius: 3px;
+    width: 227px;
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 17px 45px 17px 43px;
+}
+
 .container {    
     max-width: 1200px;
     width: 100%;

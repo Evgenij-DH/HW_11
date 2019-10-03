@@ -9,7 +9,7 @@
     font-weight: bold;
     font-style: normal;
 }
-@font-face {
+/* @font-face {
     font-family: 'FontAwesome';
     src: url('fonts/subset-FontAwesome.eot');
     src: url('fonts/subset-FontAwesome.eot?#iefix') format('embedded-opentype'),
@@ -19,7 +19,7 @@
         url('fonts/subset-FontAwesome.svg#FontAwesome') format('svg');
     font-weight: regular;
     font-style: normal;
-}
+} */
 @font-face {
     font-family: 'Gotham';
     src: url('fonts/subset-GothamBlack.eot');
@@ -123,6 +123,7 @@ body {
 }
 .main_fon1 {
     background-color: #709dca;
+    position: relative;
     padding: 110px 0px 426px 0px;
 }
 .main_fon1__text--h {
@@ -146,7 +147,6 @@ body {
 .main_fon1_forms {
     margin-top: 33px;
     margin-left: 41px;
-    position: relative;
 }
 .main_fon1_form__name {
     background-color: #ffffff;
@@ -220,7 +220,7 @@ body {
     width: 647px;
     height: 343px;
     position: absolute;
-    top: 508px;
+    top: 401px;
     left: 356px;
 }
 .main_comp::before {
@@ -267,34 +267,50 @@ body {
 .services {
     margin-top: 93px;
 }
-.services_card_one {
-    width: 509px;
+.services_card {
+    width: 555px;
+    margin-left: 2px;
 }
-.service_card__one--h {
+.services_card_text {
+    margin-left: 39px;
+    width: 470px;
+}
+.service_card--h {
     color: #394b50;
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 22px;
+    margin-top: 2px;
     text-transform: uppercase;
 }
-.service_card__one--l {
+.service_card--l {
     margin-top: -10px;
     color: #7b7b7b;
     font-size: 13px;
     line-height: 22px;
+    margin-top: 10px;
 }
-.service_card__one--h::before {
-    content: '';
-    background-image: url('images/_clock.png');
-    color: white;
-    width: 45px;
-    height: 46px;
+.icon {
     display: inline-block;
     vertical-align: top;
-
 }
-
+.fa-clock-o::before {
+    content: "\f017";
+    color: #f6772c;
+    font-size: 53px;
+    font-weight: 400;      
+}    
+.fa-graduation-cap::before {
+    content: "\f19d";
+    color: #8aafd4;
+    font-size: 45px;
+    font-weight: 400;   
+}
+.services_card_text_two {
+    margin-left: 27px;
+    width: 470px;
+}
 
 .container {    
     max-width: 1200px;

@@ -9,17 +9,6 @@
     font-weight: bold;
     font-style: normal;
 }
-/* @font-face {
-    font-family: 'FontAwesome';
-    src: url('fonts/subset-FontAwesome.eot');
-    src: url('fonts/subset-FontAwesome.eot?#iefix') format('embedded-opentype'),
-        url('fonts/subset-FontAwesome.woff2') format('woff2'),
-        url('fonts/subset-FontAwesome.woff') format('woff'),
-        url('fonts/subset-FontAwesome.ttf') format('truetype'),
-        url('fonts/subset-FontAwesome.svg#FontAwesome') format('svg');
-    font-weight: regular;
-    font-style: normal;
-} */
 @font-face {
     font-family: 'Gotham';
     src: url('fonts/subset-GothamBlack.eot');
@@ -268,7 +257,7 @@ body {
     margin-top: 93px;
 }
 .services_card {
-    width: 555px;
+    width: 559px;
     margin-left: 2px;
 }
 .services_card_text {
@@ -291,25 +280,44 @@ body {
     line-height: 22px;
     margin-top: 10px;
 }
-.icon {
+.icon_ser {
     display: inline-block;
     vertical-align: top;
 }
-.fa-clock-o::before {
+.fa-clock::before {
     content: "\f017";
     color: #f6772c;
-    font-size: 53px;
-    font-weight: 400;      
+    font-size: 50px;
 }    
+.services_card_text--two {
+    margin-left: 32px;
+    width: 470px;
+}
+.fa-cog::before {
+    content: "\f013";
+    color: #709dca;
+    font-size: 50px;
+}
 .fa-graduation-cap::before {
     content: "\f19d";
-    color: #8aafd4;
+    color: #709dca;
     font-size: 45px;
-    font-weight: 400;   
 }
-.services_card_text_two {
-    margin-left: 27px;
-    width: 470px;
+.fa-rocket::before {
+    content: "\f135";
+    color: #709dca;
+    font-size: 50px;
+}
+.fa-basketball-ball::before {
+    content: "\f434";
+    color: #709dca;
+    font-size: 50px;
+}
+.fa-dollar-sign::before {
+    content: "\f155";
+    color: #709dca;
+    font-size: 50px;
+    margin-left: 15px;
 }
 
 .container {    

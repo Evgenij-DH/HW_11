@@ -111,9 +111,9 @@ body {
     border-radius: 2px;
 }
 .main_fon1 {
-    background-color: #709dca;
     position: relative;
-    padding: 110px 0px 426px 0px;
+    background-color: #709dca;
+    padding: 110px 0px 347px 0px;
 }
 .main_fon1__text--h {
     margin-left: 288px;
@@ -204,12 +204,12 @@ body {
     padding: 17px 45px 17px 43px;
 }
 .main_comp {
+    position: absolute;
     background-image: url('images/Vector_Smart_Object_comp.png');
     background-repeat: no-repeat;
-    width: 647px;
-    height: 343px;
-    position: absolute;
-    top: 401px;
+    width: 648px;
+    height: 344px;
+    top: 309px;
     left: 356px;
 }
 .main_comp::before {
@@ -284,39 +284,47 @@ body {
     display: inline-block;
     vertical-align: top;
 }
+.fas {
+    color: #709dca;
+    font-size: 50px;
+    display: inline-block;
+    vertical-align: top;
+    transition: 2s;
+}
+.fas:hover {
+    transform: rotateY(360deg);
+}
 .fa-clock::before {
     content: "\f017";
-    color: #f6772c;
+    color:  #709dca;
     font-size: 50px;
+    display: inline-block;
+    vertical-align: top;
+    transition: 2s;
 }    
+.fa-clock:hover {
+    transform: rotateY(300deg);
+    /* cursor: pointer; */
+}
 .services_card_text--two {
     margin-left: 32px;
     width: 470px;
 }
 .fa-cog::before {
     content: "\f013";
-    color: #709dca;
-    font-size: 50px;
 }
 .fa-graduation-cap::before {
     content: "\f19d";
-    color: #709dca;
     font-size: 45px;
 }
 .fa-rocket::before {
     content: "\f135";
-    color: #709dca;
-    font-size: 50px;
 }
 .fa-basketball-ball::before {
     content: "\f434";
-    color: #709dca;
-    font-size: 50px;
 }
 .fa-dollar-sign::before {
     content: "\f155";
-    color: #709dca;
-    font-size: 50px;
     margin-left: 15px;
 }
 .services {
@@ -365,9 +373,6 @@ body {
     margin-top: 28px;
     margin-bottom: 33px;
 }
-.main_fon2__button {
-    list-style: none;
-}
 .main_fon2__button--r {
     background-color: #ffc155;
     text-decoration: none;
@@ -382,6 +387,59 @@ body {
 .main_fon2__button--r:hover {
     color: #f6772c;
     font-weight: 700;
+}
+.main_fon3 {
+    background-color: #e7edf3;
+    padding-top: 137px;
+    padding-bottom: 164px;
+}
+.main_price {
+    text-align: center;
+}
+.main_price__text--h {
+    color: #394b50;
+    font-family: 'Gotham', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: -0.75px;
+    text-transform: uppercase;
+}
+.main_price__text--l {
+    color: #75888d;
+    font-family: 'Lato-Light', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+}
+.price_card {
+    background-color: #ffffff;
+    width: 391px;
+    padding: 57px 31px 48px 31px;
+    margin-top: 79px;
+    text-align: center;
+}
+.price_card__text--plan {
+    color: #818b95;
+    font-family: 'Lato-Light', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+.z {
+    color: #ffbb42;
+    font-family: 'Lato-Light', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    font-variant: small-caps;
+}
+.price_card__text--price {
+    color: #ffbb42;
+    font-family: 'Lato', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 22px;
+    font-variant: small-caps;
 }
 
 .container {    

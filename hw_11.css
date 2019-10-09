@@ -411,13 +411,22 @@ body {
     font-weight: 300;
     line-height: 22px;
 }
+.price {
+    display: flex;
+    flex-direction: row;
+}
 .price_card {
     background-color: #ffffff;
     width: 391px;
     padding: 57px 31px 48px 31px;
     margin-top: 79px;
+    border: 1px solid #ccd5df;
     text-align: center;
 }
+/* .price_card:hover {
+    background-color: #709dca;
+    padding: 87px 33px 78px 31px;
+} */
 .price_card__text--plan {
     color: #818b95;
     font-family: 'Lato-Light', sans-serif;
@@ -426,12 +435,15 @@ body {
     line-height: 22px;
     text-transform: uppercase;
 }
-.z {
+.price_card__text--z {
     color: #ffbb42;
-    font-family: 'Lato-Light', sans-serif;
-    font-size: 20px;
-    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    line-height: 22px;
+    font-weight: 700;
     font-variant: small-caps;
+    position: relative;
+    bottom: 20px;
 }
 .price_card__text--price {
     color: #ffbb42;
@@ -440,6 +452,41 @@ body {
     font-weight: 700;
     line-height: 22px;
     font-variant: small-caps;
+    margin-top: 30px;
+}
+.price_card__text--per {
+    color: #818b95;
+    font-family: 'Lato-Light', sans-serif;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 600;
+    font-variant: small-caps;
+    margin-top: 11px;
+    padding-bottom: 34px;
+} 
+.price_card__text--account {
+    color: #b5bbc1;
+    font-family: 'Lato-Light', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 40px;
+    text-transform: uppercase;
+    border-top: 1px solid #e2e9f0;
+}
+.price_button--g {
+    background-color: #ffbb42;
+    color: #ffffff;
+    text-decoration: none;
+    width: 131px;
+    border-radius: 2px;
+    padding: 16px 21px 16px 21px;
+    font-family: 'Lato-Light', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.price_button {
+    margin-top: 35px;
 }
 
 .container {    

@@ -315,7 +315,7 @@ body {
     content: '\f013';
 } */
 .fa-graduation-cap::before {
-    content: '\f19d';
+    /* content: '\f19d'; */
     font-size: 45px;
 }
 /* .fa-rocket::before {
@@ -324,8 +324,8 @@ body {
 /* .fa-basketball-ball::before {
     content: '\f434'; */
 
-.fa-dollar-sign::before {
-    content: '\f155';
+.fa-dollar-sign {
+    /* content: '\f155'; */
     margin-left: 15px;
 }
 .services {
@@ -529,20 +529,13 @@ body {
     background-color: white;
     text-align: center;
 }
-.fas {
+.fas,.far {
     color: #709dca;
     font-size: 72px;
     font-weight: 400;
     line-height: 22px;
     transition: 2s;
 }
-.far {
-    color: #709dca;
-    font-size: 72px;
-    font-weight: 400;
-    line-height: 22px;
-    transition: 2s;
-}  
 .fas:hover {
     transform: rotateY(360deg);
     color: goldenrod;
@@ -679,7 +672,7 @@ body {
     position: relative;
     top: 17px;
     left: 7px;
-    /* transform: rotateZ(180deg); */
+    transform: rotateY(180deg);
 }
 .clients_name {
     color: #f6772c;
@@ -700,6 +693,29 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 38px;
+}
+.main_fon6 {
+    background-color: #ffffff;
+    padding-top: 154px;
+    padding-bottom: 57px;
+}
+.main_contact {
+    text-align: center;
+}
+.main_contact__text--h {
+    color: #394b50;
+    font-family: 'Gotham', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: -0.75px;
+    text-transform: uppercase;
+}
+.main_contact__text--l {
+    color: #394b50;
+    font-family: 'Open Sans Light', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
 }
 
 .container {    

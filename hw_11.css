@@ -719,6 +719,7 @@ body {
 .main_fon6_forms {
     text-align: center;
     margin-top: 38px;
+    position: relative;
 }
 .form_name {
     width: 308px;
@@ -743,9 +744,9 @@ body {
     color: #6e6e6e;
     font-size: 16px;
     font-weight: 400;
-    position: relative;
-    left: 37px;
-    top: -2px;
+    position: absolute;
+    top: 18px;
+    left: 139px;
 }
 .fa-envelope {
     color: #6e6e6e;
@@ -784,12 +785,8 @@ body {
 .contact_fon {
     background-image: url('images/Layer_13_cart.png');
     background-repeat: no-repeat;
-    width: 1102px;
-    /* background-color: #d7dde4; */
-    padding: 40px 0px 163px 0px;
+    padding: 40px 0px 176px 0px;
     margin-top: 53px;
-    text-align: center;
-    /* background-position: center; */
 }
 .contact {
     width: 279px;
@@ -798,8 +795,8 @@ body {
     background-color: #394b50;
     border: 3px solid #ffffff;
     margin-left: 461px;
-    /* padding: 65px 68px 76px 69px; */
     text-align: center;
+    position: relative;
 }
 .contact_address {
     color: #ffffff;
@@ -823,6 +820,27 @@ body {
 }
 .contact_tel:hover {
     color: #ffbb42;
+}
+.contact_cub {
+    background-color: #394b50;
+    width: 13px;
+    height: 13px;
+    border-right: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    text-align: center;
+    transform: rotate(44deg);
+    position: absolute;
+    bottom: -8px;
+    left: 134px;
+    z-index: 0;
+}
+.contact_logo {
+    margin-top: 6px;
+    margin-left: 580px;
+    background-image: url('images/Shape_8_logo.png');
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 48px;
 }
 
 .container {    

@@ -142,6 +142,7 @@ body {
     width: 281px;
     padding: 18px 0px 18px 41px;
     margin-right: 10px;
+    color: blue;
     background-image: url('images/_figura.png');
     background-position-x: 15px;
     background-position-y: center;
@@ -717,6 +718,7 @@ body {
 .form_name {
     width: 308px;
     border: 1px solid #cbcbcb;
+    color: blue;
     border-radius: 2px;
     padding: 21px 0px 17px 44px;
     background-color: #ffffff;
@@ -725,6 +727,7 @@ body {
     width: 388px;
     border: 1px solid #cbcbcb;
     border-radius: 2px;
+    color: blue;
     padding: 20px 0px 17px 47px;
     background-color: #ffffff;
     margin-left: -10px;

@@ -87,9 +87,6 @@ body {
     width: 50px;
     height: 48px;
 }
-.header_menu {
-    width: 891px; 
-}
 .menu_items {
     display: flex;
     flex-direction: row;
@@ -119,7 +116,6 @@ body {
     font-family: 'Gotham', sans-serif;
     color: #ffffff;
     font-size: 35px;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: -0.88px;
     text-transform: uppercase;
@@ -136,7 +132,7 @@ body {
     margin-top: 33px;
     text-align: center;
 }
-.main_fon1_form__name {
+.form__name {
     background-color: #ffffff;
     border-radius: 3px;
     width: 281px;
@@ -148,14 +144,11 @@ body {
     background-position-y: center;
     background-repeat: no-repeat;
 }
-.main_fon1_form__name::-webkit-input-placeholder {
+.form__name::-webkit-input-placeholder {
     color: #a9a9a9;
-    font-size: 13px; 
+    font-size: 13px;
 }
-.main_fon1_form__name:required {
-    border: 1px solid red;
-}
-.main_fon1_form__email {
+.form__email {
     background-color: #ffffff;
     border-radius: 3px;
     width: 281px;
@@ -167,12 +160,9 @@ body {
     background-position-y: center;
     background-repeat: no-repeat;
 }
-.main_fon1_form__email::-webkit-input-placeholder {
+.form__email::-webkit-input-placeholder {
     color: #a9a9a9;
-    font-size: 13px; 
-}
-.main_fon1_form__email:required {
-    border: 1px solid red;
+    font-size: 13px;
 }
 .main_fon1_form__tel {
     background-color: #ffffff;
@@ -188,14 +178,11 @@ body {
 }
 .main_fon1_form__tel::-webkit-input-placeholder {
     color: #a9a9a9;
-    font-size: 13px; 
-}
-.main_fon1_form__tel:required {
-    border: 1px solid red;
+    font-size: 13px;
 }
 .main_fon1_form__submit {
     background-color: #ffbb42;
-    border-radius: 3px;
+    border-radius: 2px;
     width: 227px;
     color: #ffffff;
     font-size: 14px;
@@ -217,7 +204,7 @@ body {
     width: 648px;
     height: 344px;
     top: 211px;
-    left: 277px;
+    left: 270px;
 }
 .main_comp::before {
     content: '';
@@ -313,7 +300,6 @@ body {
     margin-left: 32px;
     width: 470px;
 }
-
 .fa-graduation-cap::before {
     font-size: 45px;
 }
@@ -335,25 +321,24 @@ body {
     margin-top: 155px;
     display: flex;
     flex-direction: row;
+    align-items: stretch;
 }
 .main_fon2_table {
     background-image: url('images/Layer_27_table.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 50%;
-    height: 623px;
+    height: auto;
 }
 .main_fon2_text {
-    width: 625px;
-    margin-top: 164px;
-    margin-left: 80px;
-    margin-right: 165px;
+    width: 505px;
+    padding: 164px 0px 160px 80px;
+    height: auto;
 }
 .main_fon2__text--h {
     color: #ffffff;
     font-family: 'Gotham', sans-serif;
     font-size: 30px;
-    font-weight: 400;
     line-height: 22px;
     text-transform: uppercase;
     letter-spacing: -0.75px;
@@ -361,7 +346,6 @@ body {
 .main_fon2__text--l {
     color: #ffffff;
     font-size: 13px;
-    font-weight: 400;
     line-height: 24px;
     margin-top: 28px;
     margin-bottom: 33px;
@@ -372,7 +356,6 @@ body {
     color: #ffffff;
     font-family: 'Lato-Light', sans-serif;
     font-size: 14px;
-    font-weight: 400;
     text-transform: uppercase;
     padding: 17px 33px 19px 32px;
     border: 1px solid #e7ad48;
@@ -393,7 +376,6 @@ body {
     color: #394b50;
     font-family: 'Gotham', sans-serif;
     font-size: 30px;
-    font-weight: 400;
     letter-spacing: -0.75px;
     text-transform: uppercase;
 }
@@ -506,7 +488,6 @@ body {
     color: #394b50;
     font-family: 'Gotham', sans-serif;
     font-size: 30px;
-    font-weight: 400;
     letter-spacing: -0.75px;
     text-transform: uppercase;
 }
@@ -525,7 +506,6 @@ body {
 .far,.fas {
     color: #709dca;
     font-size: 72px;
-    font-weight: 400;
     line-height: 22px;
     transition: 2s;
 }
@@ -549,7 +529,6 @@ body {
 .work_card__text--l {
     color: #7b7b7b;
     font-size: 13px;
-    font-weight: 400;
     line-height: 22px;
     margin-top: 28px;
 }
@@ -597,7 +576,6 @@ body {
     color: #ffffff;
     font-family: 'Lato-Light', sans-serif;
     font-size: 14px;
-    font-weight: 400;
     text-transform: uppercase;
     margin-left: 517px;
     margin-top: 91px;
@@ -625,7 +603,6 @@ body {
 .main_clients__text--l {
     color: #ffffff;
     font-size: 16px;
-    font-weight: 400;
     line-height: 22px;
 }
 .clients_card {
@@ -643,7 +620,6 @@ body {
 .card_text {
     color: #7b7b7b;
     font-size: 13px;
-    font-weight: 400;
     line-height: 22px;
 }
 .card_text::before {
@@ -665,13 +641,13 @@ body {
     position: relative;
     top: 17px;
     left: 7px;
+    display: inline-block;
     transform: rotateY(180deg);
 }
 .clients_name {
     color: #f6772c;
     font-family: 'Lato', sans-serif;
     font-size: 14px;
-    font-weight: 400;
     line-height: 22px;
     text-transform: uppercase;
     margin-top: 29px;
@@ -699,7 +675,6 @@ body {
     color: #394b50;
     font-family: 'Gotham', sans-serif;
     font-size: 30px;
-    font-weight: 400;
     letter-spacing: -0.75px;
     text-transform: uppercase;
 }
@@ -713,54 +688,16 @@ body {
 .main_fon6_forms {
     text-align: center;
     margin-top: 38px;
-    position: relative;
 }
-.form_name {
+.main_fon6 .form__name {
     width: 308px;
     border: 1px solid #cbcbcb;
-    color: blue;
-    border-radius: 2px;
     padding: 21px 0px 17px 44px;
-    background-color: #ffffff;
 }
-.form_email {
+.main_fon6 .form__email {
     width: 388px;
     border: 1px solid #cbcbcb;
-    border-radius: 2px;
-    color: blue;
     padding: 20px 0px 17px 47px;
-    background-color: #ffffff;
-    margin-left: -10px;
-    margin-right: 10px;
-}
-.form_name,.form_email:required {
-    border: 1px solid red;
-}
-.fa-user {
-    color: #6e6e6e;
-    font-size: 16px;
-    font-weight: 400;
-    position: absolute;
-    top: 18px;
-    left: 139px;
-}
-.fa-envelope {
-    color: #6e6e6e;
-    font-size: 15px;
-    font-weight: 400;
-    position: relative;
-    left: 28px;
-    top: -1px;
-}
-.form_name::-webkit-input-placeholder {
-    color: #a9a9a9;
-    font-size: 13px;
-    font-weight: 400;
-}
-.form_email::-webkit-input-placeholder {
-    color: #a9a9a9;
-    font-size: 13px;
-    font-weight: 400;
 }
 .form_submit {
     background-color: #ffbb42;
@@ -770,7 +707,6 @@ body {
     text-decoration: none;
     font-family: 'Lato-Light', sans-serif;
     font-size: 14px;
-    font-weight: 400;
     text-transform: uppercase;
     padding: 19px 52px 18px 53px;
 }
@@ -805,7 +741,6 @@ body {
 .contact_info,.contact_tel,.contact_email {
     color: #aeb7ba;
     font-size: 13px;
-    font-weight: 400;
     line-height: 24px;
 }
 .contact_tel,.contact_email {
@@ -848,7 +783,6 @@ body {
 }
 .footer .menu_item--link {
     font-size: 13px;
-    font-weight: 400;
     color: #394b50; 
 }
 .footer .menu_item--link:hover {
@@ -868,7 +802,6 @@ body {
 .fa-phone-alt {
     color: #394b50;
     font-size: 20px;
-    font-weight: 400;
 }
 .footer_tel {
     margin-left: 499px;
@@ -883,7 +816,6 @@ body {
 .fab {
     color: #709dca;
     font-size: 18px;
-    font-weight: 400;
     line-height: 25px;
 }
 .fab:hover {
@@ -906,7 +838,6 @@ body {
 .copyright {
     color: #ffffff;
     font-size: 13px;
-    font-weight: 400;
     line-height: 24px;
 }
 .container {    
